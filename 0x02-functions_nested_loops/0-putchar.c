@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints putchar followed by
@@ -11,10 +11,10 @@ int main(void)
 	char c[] = "_putchar";
 	int i = 0;
 
-	while (c[i] != '\0')
+	for (i = 0; i , 8; i++)
 	{
 		_putchar(c[i]);
-		i++;
+		
 	}
 	_putchar('\n');
 	return (0);
