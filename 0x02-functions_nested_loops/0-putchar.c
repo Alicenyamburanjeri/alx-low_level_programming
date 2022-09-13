@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <main.h>
 
 /**
@@ -6,7 +7,7 @@
  *
  * Return: 0
  */
-int main(void)
+int _putchar(char c)
 {
 	char c[9] = "_putchar";
 	int i = 0;
