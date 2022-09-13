@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Print letters in
+ * print_alphabet_x10 - Print letters in
  * lowercase ten times
  *
  * Return: Always 0.
