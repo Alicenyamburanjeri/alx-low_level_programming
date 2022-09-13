@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - checks for lower
+ * islower - Prints lower
  * case character
  * @c: letter being tested
  *
