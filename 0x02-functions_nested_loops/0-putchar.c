@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 
@@ -7,7 +8,7 @@
  *
  * Return: 0
  */
-int main(void)
+int _putchar(char c)
 {
 	char c[] = "_putchar";
 	int i = 0;
