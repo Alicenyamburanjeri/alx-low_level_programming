@@ -5,15 +5,11 @@
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	char c = 'a';
+	char lowers;
 
-	while (c <= 'z')
-	{
-		_putchar(c);
-		c++;
-	}
+	for (lowers = 'a'; lowers <= 'z'; lowers++)
+		_putchar(lowers);
 	_putchar('\n');
-	return (0);
 }
