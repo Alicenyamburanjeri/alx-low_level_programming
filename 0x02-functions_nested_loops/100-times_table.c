@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - prints n times tble
+ * print_times_table - prints n times tble
  * @n: int variable for the print t.t
  *
  * Return: 0
