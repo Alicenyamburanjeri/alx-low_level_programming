@@ -2,10 +2,9 @@
 
 /**
  * main - causes an infinite loop
- * Description \\o/ and :( - smilies
+ * \\o/ and :( - smilies
  * Return: 0
  */
-
 int main(void)
 {
 	int i;
