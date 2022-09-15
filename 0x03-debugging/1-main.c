@@ -2,23 +2,24 @@
 
 /**
  * main - causes an infinite loop
+ * Description \\o/ and :( - smilies
  * Return: 0
- * Description \\o/ - smiley
  */
+
 int main(void)
 {
 	int i;
 
-	printf("Infinite loop Incoming :(\n");
+	printf("Infinite loop Incoming :(\n"); /* :( - smily */
 
 	i = 0;
-/*
+/**
 *	while (i < 10)
 *	{
 *		putchar(i);
 *	}
 */
-	printf("Infinite loop avoided! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n"); /*\\o/ - smily*/
 
 	return (0);
 }
