@@ -5,7 +5,6 @@
  * Return: 0
  * Description \\o/ - smiley
  */
-
 int main(void)
 {
 	int i;
