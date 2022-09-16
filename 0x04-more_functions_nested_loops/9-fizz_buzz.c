@@ -16,7 +16,7 @@ int main(void)
 		else if (a == 100)
 			printf("Buzz");
 		else if (a % 3 == 0)
-			printf("fizz ");
+			printf("Fizz ");
 		else if (a % 5 == 0)
 			printf("Buzz ");
 		else
