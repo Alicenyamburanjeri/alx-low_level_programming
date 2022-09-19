@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _strcpy - Swaps integers with pointers
  * @dest: pointer to a char
  * @src: pointer to a char
