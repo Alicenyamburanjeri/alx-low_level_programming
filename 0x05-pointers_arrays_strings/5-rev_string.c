@@ -13,7 +13,7 @@ void rev_string(char *s)
 
 	while (*(s + i) != '\0')
 	{
-		bufff[i] = *(s + i);
+		buff[i] = *(s + i);
 		i++;
 	}
 	for (j = (i - 1); j >= 0; j--)
