@@ -1,19 +1,21 @@
 #incude "main.h"
+#include <stdio.h>
 
 /**
  * puts2 - prints characters
  * @str: pointer to char
  * char: data type
- * Return: 0
+ * Return: nothing
  */
 void puts2(char *str)
 {
-	int j;
+	int j = 0;
 
-	for (j = 0; *(str + j) != '\0'; j++)
+	while (*(str + j) != '\0')
 	{
 		if (j % 2 == 0)
 			_putchar(*(str + j));
+		j++;
 	}
-	_putchar('\n');
+	_putchar(10);
 }
