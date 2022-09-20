@@ -19,6 +19,7 @@ int main(void)
 	{
 		symbol = (rand() % (122 - 97 + 1)) + 97;
 		printf("%c", symbol);
+		keynumber = keynumber + symbol;
 	}
 	symbol = checksum - keynumber;
 	printf("%c", symbol);
