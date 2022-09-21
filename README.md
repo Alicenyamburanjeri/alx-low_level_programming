@@ -1,1 +1,1 @@
-More C functions
+ More on pointers and arrays
