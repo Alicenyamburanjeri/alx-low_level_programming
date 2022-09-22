@@ -1,5 +1,7 @@
 #include "main.h"
 
+int _strlen(char *s);
+
 /**
  * _strncat - Concatenates two strings.
  *
