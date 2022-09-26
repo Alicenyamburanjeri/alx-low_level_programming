@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - prints the sum of the two
@@ -14,6 +15,7 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 		sum  += a[(size * i) + i];
+
 	printf("%d, ", sum);
 	sum = 0;
 
