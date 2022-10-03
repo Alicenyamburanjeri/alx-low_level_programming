@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - prints the name
+ * @argv: arg value for char
  * main - Prints prog name
- * @argc: number of arguments passed to the function
- * @arv: argument vectors and pointers to string
+ * @argc: number of arguments passed to the fxn
  * Return: 0
  */
 
