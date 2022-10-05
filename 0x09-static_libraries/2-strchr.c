@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stddef.h>
 /**
 *_strchr - Returns a pointer to the first occurrence
@@ -20,4 +21,24 @@ char *_strchr(char *s, char c)
 		return (s + i);
 	else
 		return (NULL);
+=======
+
+/**
+ * _strchr - locates a character in a string.
+ *
+ * @s: is a pointer to a char
+ * @c: is a pointer to a char
+ *
+ * Return: Return the transformed pointer
+ *
+**/
+
+char *_strchr(char *s, char c)
+{
+while (*s != '\0')
+{
+if (*s == c)
+return (s);
+s++;
+>>>>>>> 541acbebf774f3283784335495d080035b099aad
 }
