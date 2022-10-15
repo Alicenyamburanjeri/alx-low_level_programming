@@ -1,18 +1,19 @@
-#include "variadic_functions.h"
+}
+
 #include <stdio.h>
 #include <stdarg.h>
+#include "variadic_functions.h"
 
 /**
- * print_strings - prints str followed by a new line
- * @separator: str to be printed btwn strings
- * @n: num of str passed to function
- *
- * Return: 0
- */
+ * print_strings - Print numbers
+ * @separator: char separating numbers
+ * @n: number of iterations
+ * return: Returns an int
+**/
 
-void print_strings(const *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i;
+unsigned int i;
 char *val;
 va_list ls;
 
@@ -36,5 +37,3 @@ printf("\n");
 va_end(ls);
 return;
 }
-
-

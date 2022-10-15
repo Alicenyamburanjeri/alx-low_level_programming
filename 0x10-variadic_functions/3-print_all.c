@@ -1,13 +1,12 @@
-#include "variadic_functions.h"
 #include <stdio.h>
-#include <stdarg.h>
 #include <string.h>
+#include <stdarg.h>
+#include "variadic_functions.h"
 
-/*
+/**
  * print_all - prints anything
- * @format: any var type
- *
- * Return: 0
+ * @format: any variable type
+ * Return: Nothing
  */
 
 void print_all(const char * const format, ...)
