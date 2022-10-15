@@ -4,21 +4,15 @@
 #include <stdlib.h>
 
 /**
-<<<<<<< HEAD
  * print_all - Entry Point
  * c = char, i = int, f = float, s = char * (if null print (nil))
  * @format: list of arg types
  * Return: 0
-=======
- * print_all - prints anything
- * @format: any variable type
- * Return: Nothing
->>>>>>> 46bd9b225c8334a4b8e0d532692ee4698e7053e2
  */
 
 void print_all(const char * const format, ...)
 {
-<<<<<<< HEAD
+
 	va_list valist;
 	int n = 0, i = 0;
 	char *sep = ", ";
@@ -57,7 +51,6 @@ void print_all(const char * const format, ...)
 	}
 	printf("\n");
 	va_end(valist);
-=======
 	unsigned int i = 0, j = 0;
 	char *str;
 
@@ -97,5 +90,4 @@ void print_all(const char * const format, ...)
 	}
 	printf("\n");
 	va_end(ls);
->>>>>>> 46bd9b225c8334a4b8e0d532692ee4698e7053e2
 }
