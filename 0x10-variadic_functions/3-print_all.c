@@ -7,11 +7,11 @@
  * print_all - prints anything
  * @format: any variable type
  * Return: Nothing
- */
+**/
 
 void print_all(const char * const format, ...)
 {
-	unsigned int i = 0, j = 0;
+unsigned int i = 0, j = 0;
 char *str;
 va_list ls;
 va_start(ls, format);
