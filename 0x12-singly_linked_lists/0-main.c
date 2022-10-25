@@ -42,17 +42,5 @@ int main(void)
 /*Printing unsigned long amount of nodes*/
     printf("-> %lu elements\n", n);
 
-    printf("\n");
-/*Liberate space in memory for 'news' 'str' value*/
-    free(new->str);
-/*Accessing 'new' struct value for 'str' now is NULL*/
-    new->str = NULL;
-/*'n' stores the maount of node return value*/
-    n = print_list(head);
-/*Printing unsigned long amount of nodes*/
-    printf("-> %lu elements\n", n);
-
-/*Liberating all space in memory of strings and structs*/
-    free(new);
-    return (0);
+    printf
 }
