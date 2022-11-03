@@ -2,7 +2,8 @@
 
 /**
  * read_textfile - reads a text file and prints it to the POSIX std output
- * @letter: the number of letters to be read and printed
+ * @letters: the number of letters to be read and printed
+ * @filename: name of file to be read
  *
  * Return: 0
  */
@@ -24,7 +25,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		close(fd);
 		return (0);
 	}
-	lenr = read(fd, buffer,letters);
+	lenr = read(fd, buffer, letters);
 	close(fd);
 	if (lenr == -1)
 	{
