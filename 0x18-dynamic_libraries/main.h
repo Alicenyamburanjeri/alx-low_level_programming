@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 #ifndef MAIN_H
 #define MAIN_H
 
+=======
+#ifndef _MAIN_H
+#define _MAIN_H
+#include <stdlib.h>
+>>>>>>> c663c18ff545134d49e5e2df255e82e3d887160f
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
