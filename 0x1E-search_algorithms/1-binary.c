@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * binary_search looks for a value in an int array using
+ * binary_search - looks for a value in an int array using
  * a binary search algorithm.
  * @array: a pointer to the first element of
  * the array to search in
@@ -37,6 +37,7 @@ int binary_search(int *array, size_t size, int value)
 			high = mid - 1;
 		else
 			return (mid);
-}
+	}
 
 return (-1);
+}
