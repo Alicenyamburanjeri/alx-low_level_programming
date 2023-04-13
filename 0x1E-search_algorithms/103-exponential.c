@@ -81,5 +81,5 @@ int exponential_search(int *array, size_t size, int value)
 	low = bound / 2;
 	high = min(bound, size - 1);
 	printf("Value found between indexes [%lu] and [%lu]\n", low, high);
-	return (binary_search_helper(array, value, low, high));
+	return (binary_search_2(array, value, low, high));
 }
